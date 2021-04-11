@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfterLogin">
+
+    <Button
+        android:id="@+id/home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/contactus_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_activity"
+        android:layout_marginTop="50dp"
+        android:text="Contact Us" />
+
+    <Button
+        android:id="@+id/feedback_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactus_activity"
+        android:layout_marginTop="50dp"
+        android:text="FeedBack" />
+
+    <Button
+        android:id="@+id/ourvision_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedback_activity"
+        android:layout_marginTop="50dp"
+        android:text="Our Vision" />
+
+
+
+
+</RelativeLayout>
